@@ -22,4 +22,21 @@ public:
     
 };
 
+//Template definitions
+
+template <class Type>
+Node :: Node(Type data){
+    this -> data = data;
+}
+
+template <class Type>
+Type Node<Type> :: getData() {
+    return data;
+}
+
+template <class Type>
+void Node<Type> :: setData(Type data) {
+    this -> data = data;
+}
+
 #endif /* Nodee_h */
