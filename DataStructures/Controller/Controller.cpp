@@ -11,4 +11,4 @@
 
 void Controller :: start(){
     cout << "I used to be an adventurer like you, until i took an arrow to the knee" << endl;
-}
+};
